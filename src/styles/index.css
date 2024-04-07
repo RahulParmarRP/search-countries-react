@@ -1,0 +1,10 @@
+/* atoms */
+@import "../components/atoms/Spinner/Spinner.css";
+
+/* molecules */
+@import "../components/molecules/Table/Table.css";
+@import "../components/molecules/Pagination/Pagination.css";
+
+/* organisms */
+
+/* templates */
