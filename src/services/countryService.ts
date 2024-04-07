@@ -7,11 +7,13 @@ export const fetchCountryData = async (query: string): Promise<Country[]> => {
             throw new Error("Query parameter is required");
         }
 
-        const response = await fetch(
-            `${COUNTRY_BY_NAME_API}/${query}`
-        );
+        const response = await fetch(`${COUNTRY_BY_NAME_API}/${query}`);
 
         if (!response.ok) {
+            if (response.status === 404) {
+                // return empty array when no matching countries found
+                return [];
+            }
             throw new Error("Failed to fetch data");
         }
 

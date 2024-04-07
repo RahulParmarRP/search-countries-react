@@ -13,8 +13,6 @@ export const Table: React.FC<TableProps> = ({
 }) => {
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
-  console.log("hasSearched", hasSearched);
-  console.log("loading", loading);
 
   if (!hasSearched) {
     return <p>Start searching</p>;
