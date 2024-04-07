@@ -1,7 +1,6 @@
-import { renderHook } from "@testing-library/react-hooks";
 import { useCtrlKFocus } from "../useCtrlKFocus";
 import { useRef } from "react";
-import { render, screen } from "@testing-library/react";
+import { render, screen, renderHook } from "@testing-library/react";
 
 describe("useCtrlKFocus hook", () => {
   it("should focus input when Ctrl+k is pressed", async () => {
