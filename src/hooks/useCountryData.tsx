@@ -17,11 +17,11 @@ export const useCountryData = ({ query }: UseCountryDataProps) => {
       }
 
       setLoading(true);
+      setHasSearched(true);
       setError(null);
       try {
         const fetchedData = await fetchCountryData(query);
         setData(fetchedData);
-        setHasSearched(true);
       } catch (error) {
         setError("Error fetching countries");
       } finally {
