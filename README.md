@@ -1,3 +1,15 @@
+### DEPLOYED LIVE: https://master--countries-search-rahul-parmar.netlify.app/
+--------------------------------------------
+### demo screenshots
+![image](https://github.com/RahulParmarRP/search-countries-react/assets/20947719/c96adfd8-790d-4d58-93ac-8a5d15e79455)
+
+![image](https://github.com/RahulParmarRP/search-countries-react/assets/20947719/ea3907d5-b6f6-41dd-b434-4cc062df5fd4)
+
+![image](https://github.com/RahulParmarRP/search-countries-react/assets/20947719/b9416932-6b82-485f-9fb9-a6bb64f53d82)
+
+---------------------------------------------
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
